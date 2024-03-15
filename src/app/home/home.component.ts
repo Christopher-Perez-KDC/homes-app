@@ -15,7 +15,7 @@ import { HousingService } from '../housing.service';
       </form>
    </section>
    <section class="results">
-    <app-housing-location *ngFor="let housingLocation of filterLocationList"
+    <app-housing-location *ngFor="let housingLocation of filteredLocationList"
      [housingLocation]="housingLocation">
 </app-housing-location>
    </section>
